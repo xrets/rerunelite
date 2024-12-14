@@ -2,6 +2,8 @@
 
 ## Core
 - [Left Side Sidebar](https://github.com/runelite/runelite/pull/18262) - by [halfwolf102](https://github.com/halfwolf102)
+- [Separate Infobox and Tooltip Colors](https://github.com/runelite/runelite/pull/18554) - by [sariyamelody](https://github.com/sariyamelody)
+- [Grounditems Despawn Warning](https://github.com/runelite/runelite/pull/18137) - by [Zxv975](https://github.com/Zxv975)
 - Optimized Fullscreen (WIP)
 
 ## Plugins
