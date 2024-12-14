@@ -415,7 +415,7 @@ public interface RuneLiteConfig extends Config
 	@ConfigItem(
 		keyName = "overlayBackgroundColor",
 		name = "Overlay color",
-		description = "Configures the background color of overlays",
+		description = "Configures the background color of overlays.",
 		position = 44,
 		section = overlaySettings
 	)
@@ -453,7 +453,7 @@ public interface RuneLiteConfig extends Config
 	@ConfigItem(
 			keyName = "sidebarLeftKey",
 			name = "Sidebar Left Toggle",
-			description = "The key that will toggle the sidebar (accepts modifiers)",
+			description = "The key that will toggle the sidebar (accepts modifiers).",
 			position = 47,
 			section = windowSettings
 		)
@@ -465,7 +465,7 @@ public interface RuneLiteConfig extends Config
 	@ConfigItem(
 		keyName = "sidebarToggleKey",
 		name = "Sidebar toggle key",
-		description = "The key that will toggle the current or last opened plugin panel (accepts modifiers)",
+		description = "The key that will toggle the current or last opened plugin panel (accepts modifiers).",
 		position = 48,
 		section = windowSettings
 	)
