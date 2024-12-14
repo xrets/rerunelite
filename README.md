@@ -1,3 +1,18 @@
+# my (not so improved) runelite changes:
+
+## Core
+- [Left Side Sidebar](https://github.com/runelite/runelite/pull/18262) - by [halfwolf102](https://github.com/halfwolf102)
+- Optimized Fullscreen (WIP)
+
+## Plugins
+- Reworking all for Plugin Hub (WIP)
+
+#
+#
+# 
+[official runelite repo](https://github.com/runelite/runelite)
+#
+
 ![](https://runelite.net/img/logo.png)
 # runelite [![CI](https://github.com/runelite/runelite/workflows/CI/badge.svg)](https://github.com/runelite/runelite/actions?query=workflow%3ACI+branch%3Amaster) [![Discord](https://img.shields.io/discord/301497432909414422.svg)](https://discord.gg/ArdAhnN)
 
