@@ -76,7 +76,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "hiddenItems",
-		name = "Hidden items",
+		name = "Hidden Items",
 		description = "Configures hidden ground items. Format: item1, item2, item3",
 		position = 1,
 		section = itemLists
@@ -95,7 +95,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "showHighlightedOnly",
-		name = "Show highlighted items only",
+		name = "Show Highlighted Items only",
 		description = "Configures whether or not to draw items only on your highlighted list.",
 		position = 2
 	)
@@ -117,7 +117,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "showMenuItemQuantities",
-		name = "Show menu item quantities",
+		name = "Show Menu Item Quantities",
 		description = "Configures whether or not to show the item quantities in the menu.",
 		position = 4
 	)
@@ -128,7 +128,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "recolorMenuHiddenItems",
-		name = "Recolor menu hidden items",
+		name = "Recolor Menu Hidden Items",
 		description = "Configures whether or not hidden items in right-click menu will be recolored.",
 		position = 5
 	)
@@ -139,7 +139,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "deprioritizeHiddenItems",
-		name = "Deprioritize menu hidden items",
+		name = "Deprioritize Menu Hidden Items",
 		description = "Depriotizies the menu options for items which are hidden, requiring a right-click to pick up.",
 		position = 5
 	)
@@ -150,7 +150,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "highlightTiles",
-		name = "Highlight tiles",
+		name = "Highlight Tiles",
 		description = "Configures whether or not to highlight tiles containing ground items.",
 		position = 6
 	)
@@ -161,7 +161,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "notifyHighlightedDrops",
-		name = "Notify for highlighted drops",
+		name = "Notify for Highlighted drops",
 		description = "Configures whether or not to notify for drops on your highlighted list.",
 		position = 7
 	)
@@ -183,7 +183,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "priceDisplayMode",
-		name = "Price display mode",
+		name = "Price Display Mode",
 		description = "Configures which price types are shown alongside ground item name.",
 		position = 9
 	)
@@ -194,7 +194,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "itemHighlightMode",
-		name = "Item highlight mode",
+		name = "Item Highlight Mode",
 		description = "Configures how ground items will be highlighted.",
 		position = 10
 	)
@@ -205,7 +205,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "menuHighlightMode",
-		name = "Menu highlight mode",
+		name = "Menu Highlight Mode",
 		description = "Configures what to highlight in right-click menu.",
 		position = 11
 	)
@@ -216,7 +216,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "highlightValueCalculation",
-		name = "Highlight value calculation",
+		name = "Highlight Value Calculation",
 		description = "Configures which coin value is used to determine highlight color.",
 		position = 12
 	)
@@ -425,7 +425,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "textOutline",
-		name = "Text outline",
+		name = "Text Outline",
 		description = "Use an outline around text instead of a text shadow.",
 		position = 29
 	)
@@ -458,7 +458,7 @@ public interface GroundItemsConfig extends Config
 
 	@ConfigItem(
 		keyName = "lootbeamStyle",
-		name = "Lootbeam style",
+		name = "Lootbeam Style",
 		description = "Style of lootbeam to use.",
 		position = 32
 	)
