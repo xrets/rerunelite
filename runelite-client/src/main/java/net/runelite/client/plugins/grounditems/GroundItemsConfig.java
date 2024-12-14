@@ -32,6 +32,7 @@ import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 import net.runelite.client.config.ConfigSection;
 import net.runelite.client.config.Keybind;
+import net.runelite.client.config.Range;
 import net.runelite.client.config.Units;
 import net.runelite.client.plugins.grounditems.config.DespawnTimerMode;
 import net.runelite.client.plugins.grounditems.config.HighlightTier;
@@ -406,6 +407,20 @@ public interface GroundItemsConfig extends Config
 	default DespawnTimerMode groundItemTimers()
 	{
 		return DespawnTimerMode.OFF;
+	}
+
+	@Range(
+		max = 90
+	)
+	@ConfigItem(
+		keyName = "despawnTimer",
+		name = "Despawn timer",
+		description = "Time remaining before a red despawn warning triggers. Max of 90 seconds. 0 to disable",
+		position = 29
+	)
+	default int despawnTimer()
+	{
+		return 45;
 	}
 
 	@ConfigItem(
